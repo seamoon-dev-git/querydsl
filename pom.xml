@@ -37,6 +37,7 @@
             <groupId>com.querydsl</groupId>
             <artifactId>querydsl-apt</artifactId>
             <version>${querydsl.version}</version>
+            <classifier>jpa</classifier> <!-- 또는 'jpa' -->
             <scope>provided</scope>
         </dependency>
 
@@ -79,6 +80,7 @@
                             <groupId>com.querydsl</groupId>
                             <artifactId>querydsl-apt</artifactId>
                             <version>${querydsl.version}</version>
+                            <classifier>jpa</classifier> <!-- 또는 'jpa' -->
                         </path>
                         <!-- lombok annotation processor (선택) -->
                         <path>
